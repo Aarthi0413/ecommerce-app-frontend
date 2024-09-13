@@ -45,6 +45,7 @@ const ProductDetails = () => {
           productId: params?.id,
         }
       );
+      console.log("Received response:", response);
       setData(response?.data?.data);
       setActiveImage(response?.data?.data?.productImage[0]);
     } catch (error) {

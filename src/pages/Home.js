@@ -4,6 +4,7 @@ import HorizontalCartProduct from '../components/HorizontalCartProduct'
 import VerticalCartProduct from '../components/VerticalCartProduct'
 
 const Home = () => {
+  console.log("backend url", process.env.REACT_APP_BACKEND_URL)
   return (
     <div>
       <CategoryList/>
